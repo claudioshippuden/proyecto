@@ -1,0 +1,86 @@
+{
+    "pages": {
+        "loading": {
+            "name": "loading",
+            "url": "${local}pages/loading/index.html",
+            "resizable": false,
+            "cn": {
+                "width": 1260,
+                "height": 770
+            },
+            "oversea": {
+                "width": 1200,
+                "height": 700
+            }
+        },
+        "market": {
+            "name": "market",
+            "lifeGuard": true,
+            "cn": {
+                "url": "https://imgcache.qq.com/syzs/webapp/main.html",
+                "width": 1260,
+                "height": 770,
+                "minWidth": 1260,
+                "minHeight": 770
+            },
+            "oversea": {
+                "url": "https://s.syzs.qq.com/syzs/webapp_oversea/main.html",
+                "width": 1200,
+                "height": 700,
+                "minWidth": 1200,
+                "minHeight": 700
+            }
+        },
+        "voice": {
+            "name": "voice",
+            "width": 1096,
+            "height": 656,
+            "minWidth": 1096,
+            "minHeight": 656,
+            "cn": {
+                "url": "https://qzs.qq.com/syzs/voice_tool2/main.html"
+            },
+            "oversea": {
+                "url": "https://qzs.qq.com/syzs/voice_tool2/main.html"
+            }
+        },
+        "voice_mini": {
+            "name": "voice",
+            "width": 252,
+            "height": 600,
+            "minWidth": 252,
+            "minHeight": 600,
+            "resizable": false,
+            "cn": {
+                "url": "https://qzs.qq.com/syzs/voice_sidebar/index.html"
+            },
+            "oversea": {
+                "url": "https://qzs.qq.com/syzs/voice_sidebar/index.html"
+            }
+        },
+        "wechatLogin": {
+            "name": "wechatLogin",
+            "url": "https://syzs.qq.com/wx_login3.html",
+            "width": 604,
+            "height": 386,
+            "resizable": false,
+            "showTitlebar": true
+        }
+    },
+    "market_config": {
+        "local_priority": true,
+        "url": "https://imgcache.qq.com/syzs/webapp/main.html?_isLocalPage=1",
+        "url_oversea": "https://s.syzs.qq.com/syzs/webapp_oversea/main.html?_isLocalPage=1"
+    },
+    "resouce_urls_market_only": [
+        {
+            "url": "https://imgcache.qq.com/syzs/",
+            "url_oversea": "https://s.syzs.qq.com/syzs/",
+            "path": "${local}pages/"
+        }
+    ],
+    "prefetch_data": {
+        "url": "https://sy.guanjia.qq.com/bin/view/gamecenter?op=homeindex",
+        "url_oversea": "https://sy.guanjia.qq.com/bin/view/oversea/gamecenter?op=homeindex"
+    }
+}
